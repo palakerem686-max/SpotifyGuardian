@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.castrum.spotifyguardian'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.castrum.spotifyguardian'
+        minSdk 26
+        targetSdk 30
+        versionCode 1
+        versionName '0.1.0'
+    }
+}
